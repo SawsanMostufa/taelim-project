@@ -1,0 +1,79 @@
+body {
+    text-align: right;
+    direction: rtl;
+  }
+  .contain-direction{
+   text-align: right;
+  }
+.pl-0{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}  
+.pl-1{
+    padding-right: 0.25rem !important;
+    padding-left: 0 !important;
+} 
+.pl-2{
+    padding-right: 0.5rem !important;
+    padding-left: 0 !important;
+} 
+.pl-3{
+    padding-right: 1rem !important;
+    padding-left: 0 !important;
+}  
+.pl-4{
+    padding-right: 1.5rem !important;
+    padding-left: 0 !important;
+}
+.pl-5{
+      padding-right: 3rem !important;
+      padding-left: 0 !important;
+ }
+ .mr-2{
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+.mr-3{
+    margin-left: 1.5rem !important;
+    margin-right: 0 !important;
+}
+.pr-5 {
+    padding-left: 3rem;
+    padding-right: 0 !important;
+}
+.pr-2 {
+    padding-left: 0.5rem;
+    padding-right: 0 !important;
+}
+.section-title::before {
+    right: 0;
+}
+.p-right-0{
+    padding-right: 0;
+}
+.fa-angle-right{
+  transform: rotate(180deg);
+}
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.3rem;
+   
+    border-bottom-left-radius: 0.3rem;
+}
+
+
+/* .owl-carousel{ direction: ltr; } */
+  @media (max-width: 991px) {
+    .contain-direction{
+        text-align: center;
+        padding-top: 50px;
+       }
+       .header-web{display: none;}
+  }
